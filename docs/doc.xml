@@ -1,0 +1,82 @@
+<module>
+  <header></header>
+  <footer></footer>
+  <inputs>
+    <input>
+      <name>s3_bucket_name</name>
+      <type>string</type>
+      <description xsi:nil="true"></description>
+      <default xsi:nil="true"></default>
+      <required>true</required>
+    </input>
+    <input>
+      <name>unused_var</name>
+      <type>string</type>
+      <description xsi:nil="true"></description>
+      <default xsi:nil="true"></default>
+      <required>true</required>
+    </input>
+  </inputs>
+  <modules></modules>
+  <outputs>
+    <output>
+      <name>instance_ip_addr</name>
+      <description xsi:nil="true"></description>
+    </output>
+  </outputs>
+  <providers>
+    <provider>
+      <name>aws</name>
+      <alias xsi:nil="true"></alias>
+      <version>5.24.0</version>
+    </provider>
+  </providers>
+  <requirements>
+    <requirement>
+      <name>terraform</name>
+      <version>~&gt; 1.6.0</version>
+    </requirement>
+    <requirement>
+      <name>aws</name>
+      <version>~&gt; 5.24.0</version>
+    </requirement>
+  </requirements>
+  <resources>
+    <resource>
+      <type>iam_policy</type>
+      <name>example</name>
+      <provider>aws</provider>
+      <source>hashicorp/aws</source>
+      <mode>managed</mode>
+      <version>latest</version>
+      <description xsi:nil="true"></description>
+    </resource>
+    <resource>
+      <type>security_group</type>
+      <name>allow_tls</name>
+      <provider>aws</provider>
+      <source>hashicorp/aws</source>
+      <mode>managed</mode>
+      <version>latest</version>
+      <description xsi:nil="true"></description>
+    </resource>
+    <resource>
+      <type>iam_policy_document</type>
+      <name>test</name>
+      <provider>aws</provider>
+      <source>hashicorp/aws</source>
+      <mode>data</mode>
+      <version>latest</version>
+      <description xsi:nil="true"></description>
+    </resource>
+    <resource>
+      <type>vpc</type>
+      <name>selected</name>
+      <provider>aws</provider>
+      <source>hashicorp/aws</source>
+      <mode>data</mode>
+      <version>latest</version>
+      <description>######################### # Security group #########################</description>
+    </resource>
+  </resources>
+</module>

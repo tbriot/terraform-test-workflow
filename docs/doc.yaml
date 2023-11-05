@@ -1,0 +1,55 @@
+header: ""
+footer: ""
+inputs:
+  - name: s3_bucket_name
+    type: string
+    description: null
+    default: null
+    required: true
+  - name: unused_var
+    type: string
+    description: null
+    default: null
+    required: true
+modules: []
+outputs:
+  - name: instance_ip_addr
+    description: null
+providers:
+  - name: aws
+    alias: null
+    version: 5.24.0
+requirements:
+  - name: terraform
+    version: ~> 1.6.0
+  - name: aws
+    version: ~> 5.24.0
+resources:
+  - type: iam_policy
+    name: example
+    provider: aws
+    source: hashicorp/aws
+    mode: managed
+    version: latest
+    description: null
+  - type: security_group
+    name: allow_tls
+    provider: aws
+    source: hashicorp/aws
+    mode: managed
+    version: latest
+    description: null
+  - type: iam_policy_document
+    name: test
+    provider: aws
+    source: hashicorp/aws
+    mode: data
+    version: latest
+    description: null
+  - type: vpc
+    name: selected
+    provider: aws
+    source: hashicorp/aws
+    mode: data
+    version: latest
+    description: '######################### # Security group #########################'
