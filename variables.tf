@@ -4,14 +4,18 @@ variable "s3_bucket_name" {
 
 variable "a_var" {
   type    = string
-  default = "myValue"
+  default = "myValueA"
 }
 
 variable "b_var" {
   type    = string
-  default = "myValue"
+  default = "myValueB"
 }
 
+variable "c_var" {
+  type    = string
+  default = "myValueC"
+}
 
 variable "var1_required" {
   type = string
