@@ -39,3 +39,6 @@ repos:
   hooks:
     - id: terraform-docs-go
       args: ["."]
+
+ci:
+  skip: [terraform-validate,terraform-fmt]
