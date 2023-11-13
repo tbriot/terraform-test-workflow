@@ -39,3 +39,8 @@ repos:
   hooks:
     - id: terraform-docs-go
       args: ["."]
+
+# pre-commit.ci configuration
+ci:
+  autofix_commit_msg: "style: auto fixes from pre-commit.ci"
+  skip: [terraform-validate,terraform-fmt]
