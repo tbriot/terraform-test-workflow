@@ -32,3 +32,9 @@ variable "var3_required" {
   description = "this var is required"
   sensitive   = false
 }
+
+variable "var4_required" {
+  type        = string
+  description = "this var is required"
+  sensitive   = false
+}

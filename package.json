@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@changesets/cli": "^2.26.2"
+  },
+  "name": "terraform-test-workflow",
+  "description": "<!-- BEGIN_TF_DOCS --> ## This is a custom header imported from docs/.header.md",
+  "version": "1.1.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbriot/terraform-test-workflow.git"
+  },
+  "author": "Thomas Briot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tbriot/terraform-test-workflow/issues"
+  },
+  "homepage": "https://github.com/tbriot/terraform-test-workflow#readme"
+}
