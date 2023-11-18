@@ -4,7 +4,7 @@
   },
   "name": "terraform-test-workflow",
   "description": "<!-- BEGIN_TF_DOCS --> ## This is a custom header imported from docs/.header.md",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "index.js",
   "directories": {
     "doc": "docs"
