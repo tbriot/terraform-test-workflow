@@ -1,7 +1,7 @@
 name: Release
 on:
-  worflow_run:
-    worflows: [ci]
+  workflow_run:
+    workflows: [ci]
     branches: [main]
     types:
       - completed
