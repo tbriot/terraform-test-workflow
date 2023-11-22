@@ -1,4 +1,4 @@
-<!-- BEGIN_TF_DOCS --> 
+<!-- BEGIN_TF_DOCS -->
 ## This is a custom header imported from docs/.header.md
 
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/tbriot/terraform-test-workflow/main.svg)](https://results.pre-commit.ci/latest/github/tbriot/terraform-test-workflow/main)
