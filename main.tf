@@ -28,6 +28,7 @@ data "aws_iam_policy_document" "test" {
       values = [
         "",
         "home/",
+        "home/test",
         "home/&{aws:username}/",
       ]
     }
