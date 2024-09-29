@@ -22,7 +22,7 @@ data "aws_iam_policy_document" "test" {
     ]
 
     condition {
-      test     = "StringLikezzz"
+      test     = "StringLike"
       variable = "s3:prefix"
 
       values = [
@@ -46,7 +46,7 @@ data "aws_iam_policy_document" "test" {
 }
 
 resource "aws_iam_policy" "example" {
-  name   = "terraform-test-workflow-very-very-very-very-very-very-very-very-very-very-long-name"
+  name   = "terraform-test-workflow"
   path   = "/"
   policy = data.aws_iam_policy_document.test.json
 }
@@ -68,7 +68,7 @@ resource "aws_security_group" "allow_tls" {
     from_port   = 443
     to_port     = 443
     protocol    = "tcp"
-    cidr_blocks = [data.aws_vpc.selected.id]
+    cidr_blocks = [data.aws_vpc.selected.cidr_block]
   }
 
   egress {

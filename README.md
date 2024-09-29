@@ -35,14 +35,6 @@ Text describing how to use the terraform configuration.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_s3_bucket_name"></a> [s3\_bucket\_name](#input\_s3\_bucket\_name) | n/a | `string` | n/a | yes |
-| <a name="input_var1_required"></a> [var1\_required](#input\_var1\_required) | n/a | `string` | n/a | yes |
-| <a name="input_var2_required"></a> [var2\_required](#input\_var2\_required) | this var is required and sensitive | `string` | n/a | yes |
-| <a name="input_var3_required"></a> [var3\_required](#input\_var3\_required) | this var is required | `string` | n/a | yes |
-| <a name="input_var4_required"></a> [var4\_required](#input\_var4\_required) | this var is required | `string` | n/a | yes |
-| <a name="input_var5_required"></a> [var5\_required](#input\_var5\_required) | this var is required | `string` | n/a | yes |
-| <a name="input_a_var"></a> [a\_var](#input\_a\_var) | n/a | `string` | `"myValueA"` | no |
-| <a name="input_b_var"></a> [b\_var](#input\_b\_var) | n/a | `string` | `"myValueB"` | no |
-| <a name="input_c_var"></a> [c\_var](#input\_c\_var) | n/a | `string` | `"myValueC"` | no |
 
 ## Outputs
 
