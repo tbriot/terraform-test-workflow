@@ -18,8 +18,8 @@ Text describing how to use the terraform configuration.
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.6.0 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 5.24.0 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.9.6 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 5.69.0 |
 
 ## Resources
 
