@@ -2,7 +2,7 @@ name: ci
 
 on:
   push:
-    pull_request:
+  pull_request:
 
 env:
   GO_VERSION: "1.18.3"
