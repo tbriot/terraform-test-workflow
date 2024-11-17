@@ -7,7 +7,7 @@ on:
 env:
   TF_CLOUD_ORGANIZATION: "tbriot-org"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
-  TF_WORKSPACE: "terraform-could-test"
+  TF_WORKSPACE: "terraform-cloud-test"
   CONFIG_DIRECTORY: "./"
 
 
