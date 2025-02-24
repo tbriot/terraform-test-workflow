@@ -29,7 +29,7 @@ repos:
       args: ['--maxkb=200']
 
 - repo: https://github.com/gruntwork-io/pre-commit
-  rev: v0.1.25
+  rev: v0.1.26
   hooks:
     - id: terraform-validate
     - id: terraform-fmt
