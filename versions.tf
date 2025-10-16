@@ -7,14 +7,6 @@ terraform {
       version = "~> 5.69.0"
     }
   }
-  cloud {
-    organization = "tbriot-org"
-    workspaces {
-      name = "terraform-cloud-test"
-    }
-  }
-
-
 }
 
 provider "aws" {
