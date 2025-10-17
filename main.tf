@@ -46,7 +46,7 @@ data "aws_iam_policy_document" "test" {
 }
 
 resource "aws_iam_policy" "example" {
-  name   = "terraform-test-workflow"
+  name   = "terraform-test-workflow-scalr"
   path   = "/"
   policy = data.aws_iam_policy_document.test.json
 }
@@ -59,7 +59,7 @@ data "aws_vpc" "selected" {
 }
 
 resource "aws_security_group" "allow_tls" {
-  name        = "terraform-test-workflow"
+  name        = "terraform-test-workflow-scalr"
   description = "Allow TLS inbound traffic"
   vpc_id      = data.aws_vpc.selected.id
 
