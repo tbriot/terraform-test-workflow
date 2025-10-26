@@ -4,7 +4,7 @@
 Change to trigger `push` event
 
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/tbriot/terraform-test-workflow/main.svg)](https://results.pre-commit.ci/latest/github/tbriot/terraform-test-workflow/main)
-
+ 
 #### Table of Contents
 1. [Usage](#usage)
 2. [Requirements](#requirements)
